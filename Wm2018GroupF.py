@@ -121,7 +121,7 @@ dx = np.ones(len(x)) / 2
 dy = np.ones(len(x)) / 2
 z = np.zeros(len(x))
 
-ax1.bar3d(x, y, z, dx, dy, dz, color, shade=True)
+ax1.bar3d(x, y, z, dx, dy, dz, color, shade=True, zsort='max')
 #ax1.view_init(ax1.elev, ax1.azim + 90)
 ax1.set_xlabel("GER--KOR")
 ax1.set_ylabel("SWE--MEX")
